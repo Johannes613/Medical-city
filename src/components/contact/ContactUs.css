@@ -1,0 +1,37 @@
+div.head-contact{
+    position: absolute;
+    top: 0;
+    left: 8%;
+    height: 330px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+div.back-img{
+    position: relative;
+}
+div.back-img img{
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    margin-top: 65px;
+    object-position: center;
+}
+span.gray-span{
+    color: gray;
+    margin-right: 10px;
+    font-weight: 550;
+    font-size: 15px;
+    cursor: pointer;
+}
+span.gray-span:hover{
+    color: var(--primary-color);
+
+}
+span.prim{
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 550;
+}

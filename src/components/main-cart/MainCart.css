@@ -1,0 +1,53 @@
+.ind-price{
+    font-size: calc(0.7rem + 0.5vw) !important;
+    font-weight: 500 !important;
+}
+div.ctrl-btn{
+    width: 120px;
+    background-color: var(--gray-color);
+    align-items: center !important;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+div.ctrl-btn:hover{
+    background-color: black !important;
+    color: white;
+
+}
+button.inc-dec{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 100 !important; 
+    color: inherit;
+    /* margin-right: 0px 10px !important; */
+}
+button.cart-value{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: inherit;
+
+
+}
+.cancel-btn{
+    color: gray;
+    font-size: 21px !important;
+    cursor: pointer;
+}
+.item-cart{
+    align-items: center !important;
+}
+.item-cart img{
+    width: 28%;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+div.main-cart{
+    min-height: 80vh;
+}
